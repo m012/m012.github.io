@@ -1,0 +1,107 @@
+html{
+	position: relative;
+}
+
+.about{
+	color:black;
+	background: #999;
+}
+
+body{
+	margin-bottom: 150px;
+	margin-top: 30px;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid orange;
+	box-shadow: 10px 10px 10px rgba(3,3,3,3.5);
+
+
+}
+
+.jumbotron {
+    background-attachment: fixed;
+	background-image: url(../img/sun.jpg);
+	background-size: cover;
+	background-position: 0 -35px;
+	color:orange;
+	overflow: hidden; 
+}
+
+.jumbotron h1, .jumbotron p {
+	font-style: italic;
+	text-shadow: 10px 10px 10px rgba(3,3,3,3.5);
+	
+}
+
+hr{
+	width: 250px;
+	border: 3px solid black;
+}
+
+.section{
+	min-height: 600px;
+}
+
+.pkiri, .pkanan
+{
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(15deg);
+	transition: 1s;
+
+}
+
+.pkanan
+{
+	transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pkiri.pmuncul, .pkanan.pmuncul
+{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portfolio {
+	background-color: #eee;
+	background-image: url(../img/wood.jpg);
+	color:white;
+	font-weight: bold; 
+	
+}
+
+.portfolio .thumbnail{
+
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.portfolio .thumbnail.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.contact{
+	min-height: 800px;
+	color: white;
+	background-image: url(../img/wood.jpg);
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background: #333;
+	padding: 30px;
+
+}
+
+footer p {
+
+	color: #aaa;
+	font-weight: bold;
+}
+

@@ -1,0 +1,46 @@
+.slider h3
+.slider h5
+{
+	text-shadow: 3px 3px 5px rgba(0,0,0.5);
+
+}
+.slider h3
+{
+	/*color:black;*/
+	font-style: italic;
+}
+
+
+.slider h5
+{
+	/*color:blue;*/
+}
+
+.parallax-container
+{
+	height: 240px;
+}
+
+.parallax img
+{
+	/*filter: grayscale(1);*/
+	opacity: 0,5 !important;
+}
+
+.klien img
+{
+	max-width: 150px;
+}
+
+section
+{
+	padding:20px 0;
+}
+
+footer
+{
+	padding:20px 0;
+	font-style: italic;
+	
+
+}
